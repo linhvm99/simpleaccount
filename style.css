@@ -464,25 +464,6 @@ table .table-name {
     .filter-runstyle select {
         width: 60px;
     }
-    .filter {
-        display: block;
-    }
-    .filter-distance {
-        margin-left: 0;
-    }
-    .distance-from p {
-        width: 50px;
-    }
-    .ft {
-        width: 125px;
-        margin: 5px 0;
-    }
-    .ft p {
-        width: 100px;
-    }
-    .function-button button {
-        margin-bottom: 10px;
-    }
 }
 
 @media(max-width: 250px) {
@@ -509,5 +490,24 @@ table .table-name {
     }
     .ft input {
         width: 30%;
+    }
+    .filter {
+        display: block;
+    }
+    .filter-distance {
+        margin-left: 0;
+    }
+    .distance-from p {
+        width: 50px;
+    }
+    .ft {
+        width: 125px;
+        margin: 5px 0;
+    }
+    .ft p {
+        width: 100px;
+    }
+    .function-button button {
+        margin-bottom: 10px;
     }
 }
