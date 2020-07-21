@@ -475,4 +475,28 @@ table .table-name {
     .function-button button {
         margin-bottom: 10px;
     }
+    .filter {
+        display: block;
+    }
+    .submit-button button {
+        display: block;
+        margin-bottom: 10px;
+        margin: 10px auto;
+    }
+    .filter {
+        display: block;
+    }
+    .filter-distance {
+        margin-left: 0;
+    }
+    .ft {
+        width: 220px;
+        margin: 5px 0;
+    }
+    .ft p {
+        width: 150px;
+    }
+    .ft input {
+        width: 30%;
+    }
 }
