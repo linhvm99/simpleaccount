@@ -470,3 +470,9 @@ table .table-name {
         width: 60px;
     }
 }
+
+@media(max-width: 250px) {
+    .function-button button {
+        margin-bottom: 10px;
+    }
+}
