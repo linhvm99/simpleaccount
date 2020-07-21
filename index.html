@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="main-menu">
+            <ul>
+                <li>
+                    <p>Simple Account V2</p>
+                    <div class="avatar">
+                        <img src="https://cdn.iconscout.com/icon/free/png-512/avatar-372-456324.png" alt="">
+                        <p>Mạnh Linh</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-calendar nav-icon"></i><span class="nav-text">Lịch trình & Lịch sử</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-thumbs-up nav-icon"></i><span class="nav-text">Auto Like</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-comment nav-icon"></i><span class="nav-text">Auto Comment</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-hand-point-right nav-icon"></i><span class="nav-text">Auto Poke</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-birthday-cake nav-icon"></i><span class="nav-text">Happy Birthday</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-plus nav-icon"></i><span class="nav-text">Mời bạn bè vào nhóm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-plus nav-icon"></i><span class="nav-text">Mời bạn bè thích trang</span>
+                    </a>
+                </li>
+                <li class="join">
+                    <a href="">
+                        <i class="fab fa-searchengin nav-icon"></i><span class="nav-text">Tham gia nhóm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-outdent nav-icon"></i><span class="nav-text">Rời nhóm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-arrow-circle-up nav-icon"></i><span class="nav-text">Uptop bài viết group</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-gg-circle nav-icon"></i><span class="nav-text">Thư viện bài viết</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-plus-circle nav-icon"></i><span class="nav-text">Đăng bài vào nhóm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-times-circle nav-icon"></i><span class="nav-text">Xóa bài chờ duyệt group</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-id-card nav-icon"></i><span class="nav-text">Đăng bài vào profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-male nav-icon"></i><span class="nav-text">Clone bài viết theo id</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-male nav-icon"></i><span class="nav-text">Clone bài viết profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-backspace nav-icon"></i><span class="nav-text">Backup inbox</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-comment-alt nav-icon"></i><span class="nav-text">Backup Commnents</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-images nav-icon"></i><span class="nav-text">Backup photos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-search nav-icon"></i><span class="nav-text">Find ID</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="right">
+            <div class="title"><span>Tham gia nhóm</span></div>
+            <p>Từ khóa tìm kiếm :</p>
+            <input type="text" placeholder="VD: Marketing" class="input-field">
+            <div class="function">
+                <div class="member-quantity">
+                    <p>Số lượng member: </p>
+                    <input type="text" class="input-field">
+                </div>
+                <div class="function-button">
+                    <button><span class="text">Quét nhóm</span></button>
+                    <button><span>Chọn từ file GID</span></button>
+                    <button><span>Lưu DS Full</span></button>
+                    <button><span>Lưu DS ID</span></button>
+                    <button class="bg-red"><span>Xóa bảng</span></button>
+                </div>
+
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-stt">STT</th>
+                        <th class="table-checkbox"><input type="checkbox"></th>
+                        <th class="table-id">ID group</th>
+                        <th class="table-name">Tên group</th>
+                        <th class="table-member">Thành viên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td><input type="checkbox"></td>
+                        <td>1791634121063905</td>
+                        <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
+                        <td>102792</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <div class="filter">
+                <div class="filter-stt">
+                    <div class="stt-start">
+                        <p>STT bắt đầu: </p>
+                        <input type="text" placeholder="0" class="input-field">
+                    </div>
+                    <div class="stt-end">
+                        <p>STT kết thúc: </p>
+                        <input type="text" placeholder="0" class="input-field">
+                    </div>
+                </div>
+                <div class="filter-distance">
+                    <div class="distance-from">
+                        <p>Thời gian giãn cách từ: </p>
+                        <input type="text" placeholder="giây" class="input-field">
+                    </div>
+                    <div class="distance-to">
+                        <p>đến: </p>
+                        <input type="text" placeholder="giây" class="input-field">
+                    </div>
+                </div>
+                <div class="filter-runstyle">
+                    <p>Kiểu chạy: </p>
+                    <select name="" id="">
+						<option value="">Chrome Profile</option>
+						<option value="">Chrome Profile 1</option>
+						<option value="">Chrome Profile 2</option>
+						<option value="">Chrome Profile 3</option>
+					</select>
+                </div>
+
+            </div>
+            <div class="submit-button">
+                <button class="bg-green"><span>Đặt lịch</span></button>
+                <button class="bg-pink"><span>Run</span></button>
+                <button class="bg-red"><span>Stop</span></button>
+            </div>
+            <div class="history">
+                <div class="title"><span>Lịch sử</span></div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
