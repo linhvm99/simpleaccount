@@ -240,10 +240,14 @@ td:nth-child(3) {
 }
 
 td:nth-child(4) {
-    width: 45%;
+    width: 65%;
 }
 
 td:nth-child(5) {
+    width: 10%;
+}
+
+td:nth-child(6) {
     width: 5%;
 }
 
@@ -257,6 +261,15 @@ th,
 td {
     border: 1px solid #c1c1c1;
     font-size: 0.9rem;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
 }
 
 table .table-name {
