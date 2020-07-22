@@ -33,10 +33,17 @@ function checkOne() {
 
 function deleteRow(index) {
     var i = index.parentNode.parentNode.rowIndex;
+    var number = 1
     document.getElementById("table").deleteRow(i)
+    var index = document.getElementsByClassName("index")
+    Array.from(index).forEach(item => {
+        item.innerHTML = number
+        number++
+    })
+
 }
 
 function deleteAll() {
-    var table = document.getElementById("table")
+    var table = document.getElementById("tbody")
     table.innerHTML = ""
 }
