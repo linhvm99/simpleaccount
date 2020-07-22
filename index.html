@@ -136,11 +136,11 @@
                     <button><span>Chọn từ file GID</span></button>
                     <button><span>Lưu DS Full</span></button>
                     <button><span>Lưu DS ID</span></button>
-                    <button class="bg-red"><span>Xóa bảng</span></button>
+                    <button class="bg-red" onclick="deleteAll()"><span>Xóa bảng</span></button>
                 </div>
 
             </div>
-            <table>
+            <table id="table">
                 <thead>
                     <tr>
                         <th>STT</th>
@@ -148,6 +148,7 @@
                         <th>ID group</th>
                         <th>Tên group</th>
                         <th>Thành viên</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -157,6 +158,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -164,6 +166,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -171,6 +174,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -178,6 +182,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -185,6 +190,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -192,6 +198,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>7</td>
@@ -199,6 +206,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>8</td>
@@ -206,6 +214,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>9</td>
@@ -213,6 +222,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>10</td>
@@ -220,6 +230,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>11</td>
@@ -227,6 +238,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                     <tr>
                         <td>12</td>
@@ -234,6 +246,7 @@
                         <td>1791634121063905</td>
                         <td>Tự chạy quảng cáo Facebook ads, quảng cáo Google Ads, Digital Marketing</td>
                         <td>102792</td>
+                        <th><button class="delete-button" onclick="deleteRow(this)">Xóa</button></th>
                     </tr>
                 </tbody>
 

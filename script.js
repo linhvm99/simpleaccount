@@ -6,7 +6,8 @@ function checkAll() {
         Array.from(child).forEach(item => {
             item.checked = true
         })
-    } else if (parent.checked === false) {
+    }
+    if (parent.checked === false) {
         Array.from(child).forEach(item => {
             item.checked = false
 
@@ -28,4 +29,14 @@ function checkOne() {
         parent.checked = false
     }
 
+}
+
+function deleteRow(index) {
+    var i = index.parentNode.parentNode.rowIndex;
+    document.getElementById("table").deleteRow(i)
+}
+
+function deleteAll() {
+    var table = document.getElementById("table")
+    table.innerHTML = ""
 }
