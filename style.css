@@ -45,7 +45,7 @@ button:hover {
     bottom: 0;
     height: 100%;
     left: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .main-menu li {
