@@ -171,7 +171,7 @@ nav.main-menu li.active a,
 
 .function {
     display: flex;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .member-quantity {
@@ -195,7 +195,7 @@ nav.main-menu li.active a,
     background-color: #4782b7;
     border: none;
     height: 35px;
-    margin: 0 2px;
+    margin: 5px 2px;
     border-radius: 2px;
 }
 
@@ -411,7 +411,7 @@ table .table-name {
         display: block;
     }
     .function-button {
-        margin-top: 10px;
+        margin: 5px 0;
     }
     .filter-stt {
         width: 30%;
@@ -443,6 +443,9 @@ table .table-name {
     .filter-runstyle {
         margin-left: 10px;
         width: 25%;
+    }
+    .member-quantity {
+        margin-top: 10px;
     }
 }
 
@@ -476,6 +479,15 @@ table .table-name {
     }
     .filter-runstyle select {
         width: 60px;
+    }
+}
+
+@media(max-width: 450px) {
+    .filter-runstyle select {
+        width: 30%;
+    }
+    .ft>input {
+        width: 30px;
     }
 }
 
